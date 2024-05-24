@@ -15,9 +15,9 @@ So, opam-check-checksum takes as input two opam-repositories.
 Let's clone 6ed19e3 as `old-opam` and 2730ed6 as `new-opam`:
 ```
 $ git clone https://github.com/ocaml/opam-repository.git old-opam
-$ cd old-opam ; git checkout 6ed19e3
+$ cd old-opam ; git checkout 6ed19e3 ; cd ..
 $ git clone https://github.com/hannesm/opam-repository.git new-opam
-$ cd new-opam ; git checkout 2730ed6
+$ cd new-opam ; git checkout 2730ed6 ; cd ..
 ```
 
 Ok, now we can run
