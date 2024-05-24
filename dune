@@ -1,0 +1,4 @@
+(executable
+  (name opam_check_checksum)
+  (public_name opam-check-checksum)
+  (libraries opam-format cmdliner logs logs.fmt fmt.tty logs.cli fmt.cli))
